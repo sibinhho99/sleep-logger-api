@@ -5,7 +5,7 @@ class V1::MorningEntriesController < ApplicationController
     end
     
     def create
-      @morning_entry = MorningEntry.new(task_params)
+      @morning_entry = MorningEntry.new(morning_entry_params)
       @morning_entry.save
       render json: @morning_entry, status: :created
     end
@@ -21,7 +21,7 @@ class V1::MorningEntriesController < ApplicationController
   
     def update
       @morning_entry = MorningEntry.find(params[:id])
-      if @morning_entry.update(task_params)
+      if @morning_entry.update(morning_entry_params)
         render json: @morning_entry, status: :ok
       else
         render status: :unprocessable_entity
@@ -38,7 +38,7 @@ class V1::MorningEntriesController < ApplicationController
     end
   
     def morning_entry_params
-      params.require(:morning_entry)
+        params.permit(:bed_time, :wake_up_time, :ease_of_sleep, :hours_of_sleep, :morning_feeling)
     end
   end
   
