@@ -1,0 +1,2 @@
+class MorningEntry < ApplicationRecord
+end
