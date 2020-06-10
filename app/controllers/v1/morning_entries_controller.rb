@@ -38,7 +38,7 @@ class V1::MorningEntriesController < ApplicationController
     end
   
     def morning_entry_params
-        params.permit(:bed_time, :wake_up_time, :ease_of_sleep, :hours_of_sleep, :morning_feeling)
+        params.require(:morning_entry).permit(:bed_time, :wake_up_time, :ease_of_sleep, :hours_of_sleep, :morning_feeling)
     end
   end
   
