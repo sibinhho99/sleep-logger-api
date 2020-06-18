@@ -27,6 +27,7 @@
     <list default="true" id="9c7d2dea-d3c9-455a-81a4-f78c0ddb8018" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592378277297</updated>
       <workItem from="1592378278564" duration="15144000" />
-      <workItem from="1592441875933" duration="43000" />
+      <workItem from="1592441875933" duration="202000" />
     </task>
     <servers />
   </component>
@@ -200,5 +201,9 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="818" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1592433630821" />
+    <state x="742" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592441995973">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="742" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1592441995973" />
   </component>
 </project>

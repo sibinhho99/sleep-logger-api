@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bcrypt', '~> 3.1.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
+# Use JWT for user authentication
+gem 'jwt', '~> 1.5', '>= 1.5.4'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
