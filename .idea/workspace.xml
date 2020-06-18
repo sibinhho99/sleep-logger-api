@@ -24,10 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c7d2dea-d3c9-455a-81a4-f78c0ddb8018" name="Default Changelist" comment="">
+    <list default="true" id="9c7d2dea-d3c9-455a-81a4-f78c0ddb8018" name="Default Changelist" comment="Add jwt gem">
+      <change afterPath="$PROJECT_DIR$/lib/json_web_token.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,8 +173,16 @@
       <option name="presentableId" value="Default" />
       <updated>1592378277297</updated>
       <workItem from="1592378278564" duration="15144000" />
-      <workItem from="1592441875933" duration="202000" />
+      <workItem from="1592441875933" duration="1136000" />
     </task>
+    <task id="LOCAL-00001" summary="Add jwt gem">
+      <created>1592442084501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592442084501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add jwt gem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jwt gem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="404" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592378653804">
