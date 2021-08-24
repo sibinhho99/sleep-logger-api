@@ -7,12 +7,18 @@ class V1::TipsController < ApplicationController
 
   #For saving tip. Creates association between the logged in user and the tip.
   def save_tip
-    @tip = Tip.find(params[:id])
-    if @tip
-      Usertip.create(user_id: @current_user.id, tip_id: params[:id])
+    # If user already has the tip, do nothing. Else, create new user-tip association.
+    usertip = @current_user.usertips.find_by(tip_id: params[:id])
+    if usertip
       render json: @tip, status: :ok
     else
-      render status: :unprocessable_entity
+      tip = Tip.find(params[:id])
+      if tip
+        Usertip.create(user_id: @current_user.id, tip_id: params[:id])
+        render json: tip, status: :ok
+      else
+        render status: :unprocessable_entity
+      end
     end
   end
 
