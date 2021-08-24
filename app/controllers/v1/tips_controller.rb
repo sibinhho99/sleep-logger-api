@@ -8,7 +8,7 @@ class V1::TipsController < ApplicationController
   #For saving tip. Creates association between the logged in user and the tip.
   def save_tip
     @tip = Tip.find(params[:id])
-    if @tip
+    if @tip and not @current_user.usertips.find_by(tip_id: params[:id])
       Usertip.create(user_id: @current_user.id, tip_id: params[:id])
       render json: @tip, status: :ok
     else
